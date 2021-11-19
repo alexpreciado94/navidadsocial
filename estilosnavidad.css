@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+body{
+	font-family: arial;
+	background-image: url(images/background.jpg);
+	font-size: 15px;
+}
+header{
+	background-color: #ffffff;
+	overflow: hidden;
+	box-shadow: 0px 3px 7px black;
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+header img{
+	margin: 0.5em 1%;
+}
+header nav{
+  margin-right: 1%;
+  background-color: #232323;
+	text-align: center;
+  float: right;
+  overflow: hidden;
+}
+header nav ul{
+	list-style-type: none;
+}
+header nav li{
+	float: left;
+  line-height: 5.33em;
+}
+header nav a{
+	display: block;
+	font-weight: bold;
+	padding: 0px 0.9em;
+	text-decoration: none;
+	color: white;
+	transition: all 500ms ease;
+}
+header nav a:hover{
+	background-color: #3a65ad;
+}
+main{
+	margin: 8.63em auto 0px auto;
+  background-color: rgba(255, 255, 255, 0.7);
+	display: flex;
+}
+footer{
+	background-color: #3a65ad;
+	color: white;
+	box-shadow: 0px -3px 7px black;
+}
+.footerWrapper{
+	overflow: hidden;
+}
+.footerMenu{
+	float: left;
+	width: 68%;
+	padding: 1%;
+}
+footer ul{
+	list-style-type: none;
+}
+footer li{
+	margin-bottom: 0.3em;
+}
+footer a{
+	text-decoration: none;
+	color: white;
+}
+#social{
+	width: 28%;
+	float: left;
+	margin: 1%;
+}
+#social img{
+	float: right;
+	margin-left: 2%;
+}
+#footerdown{
+	background-color: #232323;
+
+}
+#privacidad{
+	text-decoration: underline;
+	margin-left: 1%;
+	line-height: 2em;
+}
+#footerdown p{
+	display: inline;
+	float: right;
+	margin-right: 1%;
+	line-height: 2em;
+}
+#alex{
+	font-weight: bold;
+	text-decoration: none;
+}
