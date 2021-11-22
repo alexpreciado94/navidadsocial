@@ -1,10 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 *{
 	margin: 0px;
 	padding: 0px;
 }
 body{
 	font-family: arial;
-	background-image: url(images/background.jpg);
+	/*background-image: url(images/background.jpg);*/
 	font-size: 15px;
 }
 header{
@@ -37,7 +38,7 @@ header nav a{
 	font-weight: bold;
 	padding: 0px 0.9em;
 	text-decoration: none;
-	color: #000000;
+	color: black;
 	transition: all 500ms ease;
 }
 header nav a:hover{
@@ -46,20 +47,114 @@ header nav a:hover{
 }
 main{
 	margin: 5.33em auto 0px auto;
-  background-color: rgba(255, 255, 255, 0.7);
+  /*background-color: rgba(255, 255, 255, 0.7);*/
+}
+.cabecera{
+	width: 100%;
+	border-bottom: solid 5px #3a65ad;
 }
 section{
-	width: 80%;
-	margin: 0px auto 5.33em auto;
+	overflow: hidden;
+	width: 85%;
+	margin: 0px auto 3em auto;
 	clear: left;
 }
+h1{
+	text-align: center;
+	font-family: Permanent Marker;
+	font-size: 2em;
+	margin-bottom: 1em;
+}
+h2{
+	font-family: Permanent Marker;
+	font-size: 1.5em;
+	margin-bottom: 0.1em;
+}
+p{
+	text-align: justify;
+	margin-bottom: 1em;
+}
 .justiciaSocial{
-	padding: 3em;
-	width: 25%;
-	height: 7em;
+	width: 29%;
+	height: 6em;
 	float: left;
 }
+.justiciaSocial:nth-child(1){
+	padding: 3em 3% 3em 0px;
+}
+.justiciaSocial:nth-child(2){
+	padding: 3em 3%;
+}
+.justiciaSocial:nth-child(3){
+	padding: 3em 0px 3em 3%;
+}
+.parallax1{
+	margin-bottom: 2em;
+	height: 20em;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(img/parallax1.jpg);
+}
+.parallax2{
+	margin-bottom: 2em;
+	height: 20em;
+	width: 100%;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: url(img/parallax2.jpg);
+}
+/*.parallax:nth-child(1){
+	background-image: url(img/parallax1.jpg);
+}
+.parallax:nth-child(2){
+	background-image: url(img/parallax2.jpg);
+}*/
+#listaDeseos{
+	width: 97%;
+	height: 40em;
+	padding: 1%;
+	margin-bottom: 1em;
+	border: 2px solid #3a65ad;
+}
+input{
+	display: block;
+	padding: 1%;
+	margin-bottom: 1em;
+	border: 2px solid #3a65ad;
+}
+input:nth-child(1){
+	width: 97%;
+}
+input:nth-child(2){
+	width: 30%;
+}
+input[type="submit"]{
+	font-weight: bold;
+	color: white;
+	background-color: #3a65ad;
+	transition: all 500ms ease;
+	width: 20%;
+}
+input[type="submit"]:hover{
+	background-color: gray;
+	border-color: gray;
+}
+iframe{
+	float: left;
+	width: 50%;
+	height: 20em;
+	margin-right: 3%;
+}
+#about{
+	margin-left: 3%;
+}
 footer{
+	clear: left;
 	background-color: #3a65ad;
 	color: white;
 	box-shadow: 0px -3px 7px black;
@@ -93,7 +188,6 @@ footer a{
 }
 #footerdown{
 	background-color: #232323;
-
 }
 #privacidad{
 	text-decoration: underline;
