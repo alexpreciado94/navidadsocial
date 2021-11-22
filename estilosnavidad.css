@@ -21,7 +21,6 @@ header img{
 }
 header nav{
   margin-right: 1%;
-  background-color: #232323;
 	text-align: center;
   float: right;
   overflow: hidden;
@@ -38,22 +37,26 @@ header nav a{
 	font-weight: bold;
 	padding: 0px 0.9em;
 	text-decoration: none;
-	color: white;
+	color: #000000;
 	transition: all 500ms ease;
 }
 header nav a:hover{
 	background-color: #3a65ad;
+	color: white;
 }
 main{
-	margin: 8.63em auto 0px auto;
+	margin: 5.33em auto 0px auto;
   background-color: rgba(255, 255, 255, 0.7);
-	display: flex;
 }
 section{
 	width: 80%;
+	margin: 0px auto 5.33em auto;
+	clear: left;
 }
 .justiciaSocial{
-	padding: 40px;
+	padding: 3em;
+	width: 25%;
+	height: 7em;
 	float: left;
 }
 footer{
