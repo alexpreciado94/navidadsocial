@@ -18,7 +18,7 @@ header{
 	left: 0px;
 }
 header img{
-	margin: 0.5em 1%;
+	margin: 0.5rem 1%;
 }
 header nav{
   margin-right: 1%;
@@ -31,12 +31,12 @@ header nav ul{
 }
 header nav li{
 	float: left;
-  line-height: 5.33em;
+  line-height: 5.33rem;
 }
 header nav a{
 	display: block;
 	font-weight: bold;
-	padding: 0px 0.9em;
+	padding: 0px 0.9rem;
 	text-decoration: none;
 	color: black;
 	transition: all 500ms ease;
@@ -46,51 +46,55 @@ header nav a:hover{
 	color: white;
 }
 main{
-	margin: 5.33em auto 0px auto;
+	margin: 5.33rem auto 0px auto;
   /*background-color: rgba(255, 255, 255, 0.7);*/
 }
 .cabecera{
 	width: 100%;
 	border-bottom: solid 5px #3a65ad;
+	margin-bottom: 2rem;
+}
+#first{
+	width: 100%;
 }
 section{
 	overflow: hidden;
 	width: 85%;
-	margin: 0px auto 3em auto;
+	margin: 0px auto 3rem auto;
 	clear: left;
 }
 h1{
 	text-align: center;
 	font-family: Permanent Marker;
-	font-size: 2em;
-	margin-bottom: 1em;
+	font-size: 2rem;
+	margin-bottom: 1rem;
 }
 h2{
 	font-family: Permanent Marker;
-	font-size: 1.5em;
-	margin-bottom: 0.1em;
+	font-size: 1.5rem;
+	margin-bottom: 0.1rem;
 }
 p{
 	text-align: justify;
-	margin-bottom: 1em;
+	margin-bottom: 1rem;
 }
 .justiciaSocial{
 	width: 29%;
-	height: 6em;
+	height: 7rem;
 	float: left;
 }
 .justiciaSocial:nth-child(1){
-	padding: 3em 3% 3em 0px;
+	padding: 1rem 3% 3rem 0px;
 }
 .justiciaSocial:nth-child(2){
-	padding: 3em 3%;
+	padding: 1rem 3% 3rem 3%;
 }
 .justiciaSocial:nth-child(3){
-	padding: 3em 0px 3em 3%;
+	padding: 1rem 0px 3rem 3%;
 }
 .parallax1{
-	margin-bottom: 2em;
-	height: 20em;
+	margin-bottom: 2rem;
+	height: 15rem;
 	width: 100%;
 	background-attachment: fixed;
 	background-position: center;
@@ -99,8 +103,8 @@ p{
 	background-image: url(img/parallax1.jpg);
 }
 .parallax2{
-	margin-bottom: 2em;
-	height: 20em;
+	margin-bottom: 2rem;
+	height: 15rem;
 	width: 100%;
 	background-attachment: fixed;
 	background-position: center;
@@ -116,15 +120,15 @@ p{
 }*/
 #listaDeseos{
 	width: 97%;
-	height: 40em;
+	height: 40rem;
 	padding: 1%;
-	margin-bottom: 1em;
+	margin-bottom: 1rem;
 	border: 2px solid #3a65ad;
 }
 input{
 	display: block;
 	padding: 1%;
-	margin-bottom: 1em;
+	margin-bottom: 1rem;
 	border: 2px solid #3a65ad;
 }
 input:nth-child(1){
@@ -147,7 +151,7 @@ input[type="submit"]:hover{
 iframe{
 	float: left;
 	width: 50%;
-	height: 20em;
+	height: 20rem;
 	margin-right: 3%;
 }
 #about{
@@ -171,7 +175,7 @@ footer ul{
 	list-style-type: none;
 }
 footer li{
-	margin-bottom: 0.3em;
+	margin-bottom: 0.3rem;
 }
 footer a{
 	text-decoration: none;
@@ -192,15 +196,45 @@ footer a{
 #privacidad{
 	text-decoration: underline;
 	margin-left: 1%;
-	line-height: 2em;
+	line-height: 2rem;
 }
 #footerdown p{
 	display: inline;
 	float: right;
 	margin-right: 1%;
-	line-height: 2em;
+	line-height: 2rem;
 }
 #alex{
 	font-weight: bold;
 	text-decoration: none;
+}
+
+@media (max-width: 1024px){
+	body{
+		font-size: 12px;
+	}
+	.justiciaSocial:nth-child(-n+3){
+		min-height: 7rem;
+		width: 44%;
+		padding: 1rem 3%;
+	}
+}
+@media (max-width: 720px){
+	.justiciaSocial:nth-child(-n+3){
+		width: 100%;
+		padding: 1rem 0px;
+	}
+	input[type="submit"]{
+		width: auto;
+	}
+	iframe{
+		width: 100%;
+		margin: 1rem 0px;
+	}
+	#about{
+		margin-left: 0px;
+	}
+}
+@media (max-width: 480px){
+
 }
