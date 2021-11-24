@@ -150,7 +150,7 @@ input[type="submit"]:hover{
 }
 iframe{
 	float: left;
-	width: 50%;
+	width: 48%;
 	height: 20rem;
 	margin-right: 3%;
 }
@@ -181,30 +181,32 @@ footer a{
 	text-decoration: none;
 	color: white;
 }
-#social{
+.social{
 	width: 28%;
 	float: left;
 	margin: 1%;
 }
-#social img{
+.social img{
 	float: right;
 	margin-left: 2%;
 }
-#footerdown{
+.footerdown{
 	background-color: #232323;
-}
-#privacidad{
-	text-decoration: underline;
-	margin-left: 1%;
 	line-height: 2rem;
 }
-#footerdown p{
+.privacidad{
 	display: inline;
-	float: right;
-	margin-right: 1%;
-	line-height: 2rem;
+	margin-left: 1%;
 }
-#alex{
+.privacidad a{
+	text-decoration: underline;
+}
+.licencia{
+	float: right;
+	display: inline;
+	margin-right: 1%;
+}
+.alex{
 	font-weight: bold;
 	text-decoration: none;
 }
