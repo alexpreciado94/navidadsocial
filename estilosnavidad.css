@@ -238,5 +238,10 @@ footer a{
 	}
 }
 @media (max-width: 480px){
-
+	.footerdown{
+		overflow: hidden;
+	}
+	.privacidad, .licencia{
+		/*ALINEAR AL CENTRO*/
+	}
 }
