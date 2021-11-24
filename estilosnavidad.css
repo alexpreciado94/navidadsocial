@@ -168,7 +168,6 @@ footer{
 }
 .footerMenu{
 	float: left;
-	width: 68%;
 	padding: 1%;
 }
 footer ul{
@@ -182,13 +181,8 @@ footer a{
 	color: white;
 }
 .social{
-	width: 28%;
-	float: left;
-	margin: 1%;
-}
-.social img{
 	float: right;
-	margin-left: 2%;
+	margin: 1%;
 }
 .footerdown{
 	background-color: #232323;
