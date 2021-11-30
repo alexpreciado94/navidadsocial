@@ -229,8 +229,6 @@ footer a{
 	#about{
 		margin-left: 0px;
 	}
-}
-@media (max-width: 480px){
 	.footerdown{
 		overflow: hidden;
 	}
@@ -239,4 +237,7 @@ footer a{
 		display: block;
 		text-align: center;
 	}
+}
+@media (max-width: 480px){
+
 }
