@@ -25,6 +25,20 @@ header nav{
 	text-align: center;
   float: right;
 }
+header nav input[type="checkbox"]{
+	display: none;
+}
+header nav label{
+	display: none;
+	line-height: 5.33rem;
+	padding: 0,5em;
+	border: 2px solid black;
+	transition: all 500ms ease;
+}
+header nav label:hover{
+	background-color: #3a65ad;
+	color: white;
+}
 header nav ul{
 	list-style-type: none;
 }
@@ -215,6 +229,12 @@ footer a{
 	}
 }
 @media (max-width: 720px){
+	header nav label{
+		display: inline-block;
+	}
+	header nav ul li{
+		display: block;
+	}
 	.justiciaSocial:nth-child(-n+3){
 		width: 100%;
 		padding: 1rem 0px;
