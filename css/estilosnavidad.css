@@ -28,6 +28,10 @@ header nav{
 header nav input[type="checkbox"]{
 	display: none;
 }
+header nav input[type="checkbox"]:checked ~ ul li{
+	/*display: block;*/
+	top:0;
+}
 header nav label{
 	display: none;
 	line-height: 5.33rem;
@@ -45,6 +49,7 @@ header nav ul{
 header nav li{
 	float: left;
   line-height: 5.33rem;
+	transition: 1s;
 }
 header nav a{
 	display: block;
@@ -233,7 +238,8 @@ footer a{
 		display: inline-block;
 	}
 	header nav ul li{
-		display: block;
+		top:-100;
+		/*display: none;*/
 	}
 	.justiciaSocial:nth-child(-n+3){
 		width: 100%;
